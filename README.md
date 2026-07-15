@@ -1,6 +1,6 @@
 # TansJobApply
 
-Working notes and reference files from Tanya Thourani's 2026 job application process. This repo captures the house style rules, the ATS-specific quirks learned while submitting applications, and copies of the CVs/cover letters produced so far.
+Working notes and reference files from Tanya Thourani's 2026 job application process. This repo captures the house style rules, a step-by-step submission runbook, the ATS-specific quirks learned while submitting applications, and copies of the CVs/cover letters produced so far.
 
 ## Repo structure
 
@@ -13,6 +13,21 @@ reference/
 applications/
   <Company>/                            - the CV and/or cover letter actually produced for each application
 ```
+
+## How to submit a new application, step by step
+
+This is the actual procedure to follow end to end, not just a list of quirks. It assumes you already have the job posting open.
+
+1. **Read the JD and decide on the CV version.** Check whether the target employer, or a close competitor of it, appears in the vq CV's named-client list (Visa, Mastercard, Adyen, UK Finance, Deutsche Bank, Vitality). If yes, use `nc`. If no, use `vq`. If genuinely unsure, stop and ask rather than guessing. Being a past direct employer (e.g. Barclays) is not the same as a client conflict and doesn't require switching to `nc`.
+2. **Build the cover letter from the template**, not freehand. Open `reference/Tanya_Thourani_Cover_Letter_2026_TEMPLATE.docx`, keep every fixed line verbatim, and fill in only the bracketed sections: the role-specific hook paragraph, the "Your ask / My evidence" table (usually 5 rows, each mapping a real JD requirement to a specific honest CV fact), the bias sentence, the five first-year actions, and the closing lines. Sign off "Regards, Tanya Thourani".
+3. **Run the house style check** on every sentence you wrote (not the fixed template text): no em dashes, no AI stock phrasing, no triplet-list crutch, no throat-clearing openers. Read it back and ask whether a recruiter would flag it as AI-written.
+4. **Set the page size to A4** (210mm x 297mm) before exporting, since the template file itself is saved in US Letter. Trim text as needed to keep the letter to one page.
+5. **Convert to PDF** as the final deliverable, and visually check the render (page count, no overflow, no clipped text) before using it.
+6. **Fill out the ATS form.** Use the platform-specific technique notes below for Ashby or Workday. Take a fresh screenshot before any click in a busy multi-field form rather than chaining blind coordinate clicks, since these forms often auto-scroll after typing.
+7. **Answer compliance/disclosure questions honestly**, grounded in the real CV. Expect categories like: prior relationship with the employer, relatives or close relationships at the company, Senior Government Official referral or relation, outside business or second-job disclosure (this includes things like a personal content brand, answered "Yes" with a plain description, not "No" by default), and whether the candidate worked at the target's external accounting firm within the last two years (relevant here given the EY background) plus whether that work touched the target company. The exact wording used varies by application and isn't reproduced here; the principle is always to answer factually rather than to optimise the answer.
+8. **Ground salary and notice period in a real market check** for the role's seniority and location rather than guessing or reusing a previous figure verbatim, and flag it to Raj if there's no solid data to base it on.
+9. **Submit, then immediately take a screenshot of the confirmation page** and share it. This is a standing rule, not optional, and applies every time regardless of platform.
+10. **Update the application tracker table below** with the company, role, CV version, cover letter type, and status.
 
 ## House style, in short
 
@@ -47,6 +62,10 @@ Full detail is in `reference/HOUSE_STYLE.md`. The short version:
 ### General
 - LinkedIn job postings often render behind a loading skeleton; a short wait plus a re-fetch of the page text is usually enough, no special handling required beyond that.
 - When a target company is also somewhere Tanya used to work directly (e.g. Barclays), that is not the same as a "named client" conflict; the vq CV already names it as employment history and that's a strength to lean into, not something to anonymise.
+
+## What this README does not cover
+
+To be explicit about the limits of this document: it does not include Tanya's personal contact details (those live in the CV files themselves, not here), the verbatim wording used to answer any specific compliance/disclosure question (only the categories and the honesty principle are documented), or a fixed salary figure to reuse (each was derived from a live market check for that specific role and location, not a fixed number). Anyone continuing this work will need to make those same judgment calls fresh each time, not copy a prior answer.
 
 ## Application tracker
 
